@@ -1,0 +1,22 @@
+.buttonsBar {
+  border: 3px solid green;
+  min-height: 70px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.buttonStyle {
+  height: 36px;
+  min-width: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  text-transform: capitalize;
+
+  &:not(:first-child) {
+    margin-left: 20px;
+  }
+}
